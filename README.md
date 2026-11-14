@@ -1,28 +1,28 @@
 # Deep Learning — SUPAERO SDD
 
-Academic notebooks exploring convolutional neural networks and image classification with PyTorch.
+Notebooks académiques consacrés aux réseaux de neurones convolutifs et à la classification d’images avec PyTorch.
 
-## Start here
+## Par où commencer ?
 
-Open [the hands-on notebook](vision/1_hands_on.ipynb). Its implemented dataset uses **Clear / Cloudy** satellite-image labels, although some inherited teaching headings still refer to aircraft classification.
+Ouvrir [le notebook pratique](vision/1_hands_on.ipynb). Le jeu de données utilisé dans le code porte sur les classes **Clear / Cloudy** d’images satellitaires, même si certains titres hérités du cours mentionnent encore la classification d’avions.
 
-The notebook covers data exploration, train/validation splitting, normalization, a custom PyTorch dataset, CNN construction, training and evaluation. Device selection supports CUDA, Apple MPS and CPU.
+Le notebook couvre l’exploration des données, la séparation entraînement/validation, la normalisation, un dataset PyTorch personnalisé, la construction d’un CNN, l’entraînement et l’évaluation. La sélection du matériel prend en charge CUDA, Apple MPS et le CPU.
 
-## Repository contents
+## Contenu du dépôt
 
-- `vision/1_hands_on.ipynb`: hands-on classification workflow.
-- `vision/0_cnns.ipynb` and `0_cnns.ipynb`: introductory CNN notebooks.
+- `vision/1_hands_on.ipynb` : déroulement de la classification.
+- `vision/0_cnns.ipynb` et `0_cnns.ipynb` : notebooks d’introduction aux CNN.
 
-## Running
+## Exécution
 
-Use a Python notebook environment with NumPy, PyTorch, torchvision, Pillow, OpenCV, matplotlib and torchinfo. The notebook includes a torchinfo installation cell and downloads the cloud-classification dataset from a Google Cloud Storage URL. Network access is required; GPU acceleration is optional. Run cells in order and inspect the data-loading paths for your environment.
+Utiliser un environnement Python pour notebooks avec NumPy, PyTorch, torchvision, Pillow, OpenCV, matplotlib et torchinfo. Le notebook inclut une cellule d’installation de torchinfo et télécharge le jeu de classification nuageuse depuis une URL Google Cloud Storage. Un accès réseau est nécessaire ; l’accélération GPU est facultative. Exécuter les cellules dans l’ordre et vérifier les chemins de chargement des données pour l’environnement utilisé.
 
-No pinned dependency environment or automated execution check is included. Historical outputs are not a guarantee of reproducibility on a new environment.
+Le dépôt ne fournit ni environnement aux versions verrouillées ni contrôle automatisé de l’exécution. Les sorties historiques ne garantissent pas la reproductibilité dans un nouvel environnement.
 
-## Academic attribution
+## Attribution académique
 
-The hands-on notebook credits **Florient Chouteau** and the [SUPAERO Data Science deep-learning course](https://supaerodatascience.github.io/deep-learning/), and carries a **CC BY-NC-SA 4.0** notice. This repository contains coursework based on those materials; the teaching material and original exercises are not claimed as original work by this account. Preserve the notices when reusing it.
+Le notebook pratique cite **Florient Chouteau** et le [cours de deep learning SUPAERO Data Science](https://supaerodatascience.github.io/deep-learning/), avec une mention **CC BY-NC-SA 4.0**. Ce dépôt contient des travaux de cours fondés sur ces supports ; le matériel pédagogique et les exercices d’origine ne sont pas présentés comme des créations originales de ce compte. Conserver les mentions lors de toute réutilisation.
 
-## Status
+## État du projet
 
-Coursework snapshot. The notebooks are the primary deliverables; no independently reproduced benchmark is claimed in this README.
+Instantané de travaux de cours. Les notebooks constituent les livrables principaux ; ce README ne revendique aucun benchmark reproduit indépendamment.
